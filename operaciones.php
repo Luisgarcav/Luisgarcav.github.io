@@ -10,17 +10,17 @@ if ($operaciones == "sumar") {
 }
 elseif ($operaciones == "restar") {
 
-    $suma = $num1 - $num2;
+    $resta = $num1 - $num2;
     echo "El resultado de la resta es: ".$resta;
 }
 elseif ($operaciones == "multiplicar") {
 
-    $suma = $num1 * $num2;
+    $mul = $num1 * $num2;
     echo "El resultado de la multiplicacion es: ".$mul;
 }
 elseif ($operaciones == "dividir") {
 
-    $suma = $num1 / $num2;
+    $div = $num1 / $num2;
     echo "El resultado de la division es: ".$div;
 }
 
