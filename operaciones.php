@@ -1,7 +1,7 @@
 <?php
 $num1 = $_POST['numero1'];
 $num2 = $_POST['numero2'];
-$operaciones = $_POST['operacion']
+$operaciones = $_POST['operacion'];
 
 if ($operaciones == "sumar") {
 
