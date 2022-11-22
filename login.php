@@ -7,8 +7,6 @@ $dbname = "test";
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if (!$conn) {
     die("No hay conexion: " . mysqli_connect_error());
-    $com = '<img src = "space-error.svg" width= "100%" height="100%" />';
-    echo $com;
 }
 
 $nombre = $_POST["txtusuario"];
