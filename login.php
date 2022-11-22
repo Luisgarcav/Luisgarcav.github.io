@@ -1,6 +1,6 @@
 <?php
-$dbhost = "8.0.31-0ubuntu2";
-$dbuser = "root@localhost";
+$dbhost = "localhost";
+$dbuser = "root";
 $dbpass = "";
 $dbname = "test";
 
@@ -18,6 +18,7 @@ $nr = mysqli_num_rows($query);
 if ($nr == 1) {
     echo "Bienvenido: " . $nombre;
 } else if ($nr == 0) {
-    header("Location: login.html");
+    $com = '<img src = "space-error.svg" width= "100%" height="100%" />';
+    echo $com;
 }
 ?>
