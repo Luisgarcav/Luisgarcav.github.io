@@ -1,6 +1,6 @@
 <?php
 $dbhost = "localhost";
-$dbuser = "root@localhost";
+$dbuser = "root";
 $dbpass = "123Canela";
 $dbname = "test";
 
