@@ -1,6 +1,6 @@
 <?php
-$dbhost = "localhost";
-$dbuser = "root";
+$dbhost = "8.0.31-0ubuntu2";
+$dbuser = "root@localhost";
 $dbpass = "";
 $dbname = "test";
 
