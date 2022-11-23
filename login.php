@@ -1,7 +1,7 @@
 <?php
 $dbhost = "137.184.137.130";
 $dbuser = "root";
-$dbpass = "123Canela";
+$dbpass = "";
 $dbname = "test";
 
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
