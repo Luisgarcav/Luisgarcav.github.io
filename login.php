@@ -1,4 +1,5 @@
-<?php
+
+$nombre = $_POST["txtusuario"];<?php
 $dbhost = "137.184.137.130";
 $dbuser = "root";
 $dbpass = "";
@@ -6,10 +7,9 @@ $dbname = "test";
 
 $conn = sqlite_open('identifier.sqlite');
 if (!$conn) {
-    die("No hay conexion: " . mysqli_connect_error());
+    die("No hay conexion: ".sqlite_error_string());
 }
 
-$nombre = $_POST["txtusuario"];
 $pass = $_POST["txtpassword"];
 
 $query = mysqli_query($conn, "SELECT * FROM login WHERE usuario = '" . $nombre . "' and password = '" . $pass . "'");
