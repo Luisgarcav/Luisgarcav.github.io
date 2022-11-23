@@ -4,7 +4,7 @@ $dbuser = "root";
 $dbpass = "";
 $dbname = "test";
 
-$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+$conn = sqlite_open('identifier.sqlite');
 if (!$conn) {
     die("No hay conexion: " . mysqli_connect_error());
 }
