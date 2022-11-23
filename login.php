@@ -5,7 +5,7 @@ $dbuser = "root";
 $dbpass = "";
 $dbname = "test";
 
-$conn = sqlite_open('identifier.sqlite');
+$conn = sqlite_open('../identifier.sqlite');
 if (!$conn) {
     die("No hay conexion: ".sqlite_error_string());
 }
