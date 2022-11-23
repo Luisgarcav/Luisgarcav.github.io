@@ -1,5 +1,5 @@
 <?php
-$dir = 'identifier.sqlite';
+$dir = 'sqlite:identifier.sqlite';
 $dbh  = new PDO($dir) or die("cannot open the database");
 $query =  "SELECT * FROM login WHERE usuario = '" . $nombre . "' and password = '" . $pass . "'";
 foreach ($dbh->query($query) as $row)
