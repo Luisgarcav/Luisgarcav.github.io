@@ -1,5 +1,5 @@
-
-$nombre = $_POST["txtusuario"];<?php
+<?php
+$nombre = $_POST["txtusuario"];
 $dbhost = "137.184.137.130";
 $dbuser = "root";
 $dbpass = "";
