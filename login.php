@@ -1,5 +1,5 @@
 <?php
-$dbhost = "localhost";
+$dbhost = "http://137.184.137.130/";
 $dbuser = "root";
 $dbpass = "123Canela";
 $dbname = "test";
